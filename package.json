@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "yarn docs:build && bash scripts/deploy-gh.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
