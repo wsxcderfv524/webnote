@@ -2,7 +2,7 @@
  # @Author: shenjianfei
  # @Date: 2021-03-11 14:15:34
  # @LastEditors: shenjianfei
- # @LastEditTime: 2021-03-11 14:21:42
+ # @LastEditTime: 2021-03-13 17:29:11
 ### 
 #!/usr/bin/env sh
 
@@ -29,6 +29,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-git push -f git@github.com:wsxcderfv524/webnote.git master:gh-pages
+git push -f git@github.com:wsxcderfv524/webnote.git master
 
 cd -
